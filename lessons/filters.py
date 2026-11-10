@@ -11,6 +11,3 @@ for grade in grades:
     if grade != 'F':
         filtered_grades.append(grade)
 print(filtered_grades)
-
-# using comprehension
-print([ grade for grade in grades if grade != 'F' ])
